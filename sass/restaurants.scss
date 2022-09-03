@@ -1,0 +1,117 @@
+@media screen {
+    *{
+        box-sizing: border-box;
+    }
+    $color1:rgb(220, 220, 220);
+    $color2:rgb(234, 234, 234);
+    $color3:rgb(246, 246, 246);
+    $color4:rgb(180, 180, 180);
+    @mixin title1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    @mixin text1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    body{
+        width: 100%;
+        margin:0px 0px;
+        font-family: 'Roboto', sans-serif;  
+        header{
+            width: 100%;
+            border-top: solid 1px rgb(234, 234, 234);
+            display: flex;
+            align-items: center;
+            &>img{
+                width: 50%;
+                height: auto;
+                margin: 18px auto;
+                align-items: center;
+            }
+            
+        }
+        main{
+            section{
+                width: 100%;
+                
+                img{
+                    
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            article{
+                width: 100%;
+                background-color: $color3;
+                border-radius: 50px;
+                margin-top: -50px;
+                position: absolute;
+                z-index: 10;
+                .nom_resto{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 88%;
+                    margin:auto;
+                    
+                    padding: 0px 0px;
+                    h2{
+                        font-size: 28px;
+                        font-weight: 400;
+                        font-family: 'Shrikhand', cursive;
+                        margin-bottom: 0px;
+                    }
+                    i{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                }
+                h3{
+                    width: 88%;
+                    margin: auto;
+                    font-weight: 100;
+                    font-size: 16px;
+                    margin-top: 30px;
+                }
+                .menu_item{
+                    background-color: white;
+                    width: 88%;
+                    margin: auto;
+                    margin-top: 15px;
+                    border-radius: 20px;
+                    h4{
+                        font-size: 18px;
+                        margin: 0px;
+                        padding: 12px 10px 3px 10px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        padding: 0px 10px 12px 10px;
+                        p{
+                            margin: 0px;
+                            font-size: 14px;
+                            
+                        }
+                        .menu_item_price{
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}

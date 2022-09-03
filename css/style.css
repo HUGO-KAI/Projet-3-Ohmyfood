@@ -1,0 +1,223 @@
+@media screen {
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  body {
+    width: 100%;
+    margin: 0px 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  body header {
+    width: 100%;
+    border-top: solid 1px rgb(234, 234, 234);
+    display: flex;
+    align-items: center;
+  }
+  body header > img {
+    width: 50%;
+    height: auto;
+    margin: 18px auto;
+    align-items: center;
+  }
+  body main .location {
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 15px 10px -15px rgb(180, 180, 180);
+  }
+  body main .location > i {
+    align-items: center;
+    padding-left: 48px;
+    font-size: 18px;
+  }
+  body main .location input {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(234, 234, 234);
+    border: transparent;
+    margin-left: 15px;
+  }
+  body main nav {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  body main nav h2 {
+    width: 76%;
+    text-align: center;
+    margin: auto;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  body main nav h6 {
+    width: 92%;
+    text-align: center;
+    margin: auto;
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 12px;
+  }
+  body main nav .btn {
+    display: block;
+    width: 240px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 550;
+    background: linear-gradient(360deg, #9356DC, #FF79DA);
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+    border: transparent;
+    border-radius: 50px;
+  }
+  body main h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-top: 0px;
+  }
+  body main section {
+    padding-bottom: 50px;
+  }
+  body main section .filtre {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: rgb(246, 246, 246);
+    margin: 30px auto;
+    height: 80px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px rgb(220, 220, 220);
+  }
+  body main section .filtre div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  body main section .filtre > div:first-child {
+    background-color: #9356DC;
+    width: 30px;
+    height: 30px;
+    border: transparent;
+    border-radius: 15px;
+    margin-left: -14px;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+  body main section .filtre > div:nth-child(2) {
+    margin: auto 20px;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+  }
+  body main article {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 50px;
+  }
+  body main article .card {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  body main article .card .card_photo {
+    width: 100%;
+    height: 200px;
+  }
+  body main article .card .card_photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px 20px 0px 0px;
+  }
+  body main article .card .card_photo .img_center {
+    object-position: 0px -150px;
+  }
+  body main article .card .card_photo div {
+    width: 80px;
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #99E2D0;
+    position: relative;
+    top: -190px;
+    left: 240px;
+    color: #2c9c81;
+    font-weight: 600;
+  }
+  body main article .card .card_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 16px;
+  }
+  body main article .card .card_info h4 {
+    margin: auto auto;
+    font-size: 20px;
+    padding-top: 16px;
+  }
+  body main article .card .card_info h6 {
+    padding-top: 4px;
+    margin: auto auto;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  body main article .card .card_info .heart {
+    font-size: 28px;
+  }
+  body main article .card .card_info .heart i {
+    padding-top: 20px;
+    color: rgb(100, 98, 98);
+  }
+  body footer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding-bottom: 30px;
+  }
+  body footer div {
+    padding-left: 24px;
+  }
+  body footer div:first-child {
+    font-family: "Shrikhand", cursive;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    font-size: 20px;
+  }
+  body footer div a {
+    color: white;
+  }
+  body footer div p {
+    margin: 10px auto;
+    font-size: 18px;
+  }
+  body footer div p i {
+    font-size: 14px;
+  }
+  body footer div p span {
+    display: inline-block;
+    width: 28px;
+    padding-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
