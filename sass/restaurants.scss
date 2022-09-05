@@ -36,7 +36,7 @@
             
         }
         main{
-            section{
+            .photo_restaurant{
                 width: 100%;
                 
                 img{
@@ -52,6 +52,7 @@
                 margin-top: -50px;
                 position: absolute;
                 z-index: 10;
+                padding-bottom: 40px;
                 .nom_resto{
                     display: flex;
                     flex-direction: row;
@@ -112,7 +113,9 @@
 
                 
             }
-            @import "./layouts/_footer.scss";
+            @import "./components/_button.scss";
+            
         }
+        @import "./layouts/_footer.scss";
     }
 }

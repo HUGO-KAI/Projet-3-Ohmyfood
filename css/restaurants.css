@@ -23,10 +23,10 @@
     margin: 18px auto;
     align-items: center;
   }
-  body main section {
+  body main .photo_restaurant {
     width: 100%;
   }
-  body main section img {
+  body main .photo_restaurant img {
     width: 100%;
     object-fit: cover;
   }
@@ -37,6 +37,7 @@
     margin-top: -50px;
     position: absolute;
     z-index: 10;
+    padding-bottom: 40px;
   }
   body main article .nom_resto {
     display: flex;
@@ -92,31 +93,45 @@
     font-size: 16px;
     font-weight: 600;
   }
-  body main footer {
+  body main .btn {
+    display: block;
+    width: 240px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 550;
+    background: linear-gradient(360deg, #9356DC, #FF79DA);
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+    border: transparent;
+    border-radius: 50px;
+  }
+  body footer {
     background-color: rgb(53, 53, 53);
     color: white;
     padding-bottom: 30px;
   }
-  body main footer div {
+  body footer div {
     padding-left: 24px;
   }
-  body main footer div:first-child {
+  body footer div:first-child {
     font-family: "Shrikhand", cursive;
     padding-top: 20px;
     padding-bottom: 14px;
     font-size: 20px;
   }
-  body main footer div a {
+  body footer div a {
     color: white;
   }
-  body main footer div p {
+  body footer div p {
     margin: 10px auto;
     font-size: 18px;
   }
-  body main footer div p i {
+  body footer div p i {
     font-size: 14px;
   }
-  body main footer div p span {
+  body footer div p span {
     display: inline-block;
     width: 28px;
     padding-right: 10px;

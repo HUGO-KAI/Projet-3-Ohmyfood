@@ -46,18 +46,21 @@
                 justify-content: center;
                 align-items: center;
                 box-shadow:inset 0px 15px 10px -15px $color4;
-                
-                &>i{
+                i{
                     align-items: center;
                     padding-left: 48px;
                     font-size: 18px;
                 }
-                & input{
-                    @include text1;
-                    background-color: $color2; 
-                    border: transparent;
-                    margin-left: 15px;
-                }
+                form{
+
+                    input{
+                        @include text1;
+                        background-color: $color2; 
+                        border: transparent;
+                        margin-left: 15px;
+                    }
+
+                } 
             }
            
             nav{
@@ -101,7 +104,7 @@
                 padding-top: 50px;
                 margin-top: 0px;
             }
-            section{
+            .fonctionnement{
                 padding-bottom: 50px;
                 .filtre{
                     display: flex;

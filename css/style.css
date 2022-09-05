@@ -33,12 +33,12 @@
     align-items: center;
     box-shadow: inset 0px 15px 10px -15px rgb(180, 180, 180);
   }
-  body main .location > i {
+  body main .location i {
     align-items: center;
     padding-left: 48px;
     font-size: 18px;
   }
-  body main .location input {
+  body main .location form input {
     font-size: 16px;
     font-weight: 600;
     background-color: rgb(234, 234, 234);
@@ -88,10 +88,10 @@
     padding-top: 50px;
     margin-top: 0px;
   }
-  body main section {
+  body main .fonctionnement {
     padding-bottom: 50px;
   }
-  body main section .filtre {
+  body main .fonctionnement .filtre {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -102,14 +102,14 @@
     border-radius: 20px;
     box-shadow: 0px 0px 16px rgb(220, 220, 220);
   }
-  body main section .filtre div {
+  body main .fonctionnement .filtre div {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     font-weight: 600;
   }
-  body main section .filtre > div:first-child {
+  body main .fonctionnement .filtre > div:first-child {
     background-color: #9356DC;
     width: 30px;
     height: 30px;
@@ -120,7 +120,7 @@
     text-align: center;
     align-items: center;
   }
-  body main section .filtre > div:nth-child(2) {
+  body main .fonctionnement .filtre > div:nth-child(2) {
     margin: auto 20px;
     color: rgb(180, 180, 180);
     font-size: 20px;
