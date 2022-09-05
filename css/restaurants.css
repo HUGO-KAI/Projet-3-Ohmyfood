@@ -92,6 +92,35 @@
     font-size: 16px;
     font-weight: 600;
   }
+  body main footer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding-bottom: 30px;
+  }
+  body main footer div {
+    padding-left: 24px;
+  }
+  body main footer div:first-child {
+    font-family: "Shrikhand", cursive;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    font-size: 20px;
+  }
+  body main footer div a {
+    color: white;
+  }
+  body main footer div p {
+    margin: 10px auto;
+    font-size: 18px;
+  }
+  body main footer div p i {
+    font-size: 14px;
+  }
+  body main footer div p span {
+    display: inline-block;
+    width: 28px;
+    padding-right: 10px;
+  }
 }
 
 /*# sourceMappingURL=restaurants.css.map */
