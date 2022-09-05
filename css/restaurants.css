@@ -8,7 +8,6 @@
   }
   body {
     width: 100%;
-    margin: 0px 0px;
     font-family: "Roboto", sans-serif;
   }
   body header {
@@ -16,6 +15,12 @@
     border-top: solid 1px rgb(234, 234, 234);
     display: flex;
     align-items: center;
+  }
+  body header a {
+    display: block;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 24px;
   }
   body header > img {
     width: 50%;
@@ -30,12 +35,20 @@
     width: 100%;
     object-fit: cover;
   }
+  body main .photo_restaurant-laNoteEnchantee {
+    width: 100%;
+  }
+  body main .photo_restaurant-laNoteEnchantee img {
+    width: 100%;
+    object-fit: cover;
+    height: 260px;
+  }
   body main article {
     width: 100%;
     background-color: rgb(246, 246, 246);
-    border-radius: 50px;
+    border-radius: 44px 44px 0px 0px;
     margin-top: -50px;
-    position: absolute;
+    position: relative;
     z-index: 10;
     padding-bottom: 40px;
   }
@@ -56,7 +69,7 @@
   body main article .nom_resto i {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     font-size: 24px;
     color: gray;
   }
@@ -95,7 +108,8 @@
   }
   body main .btn {
     display: block;
-    width: 240px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 50px;
     margin: auto;
     margin-top: 40px;
@@ -107,7 +121,16 @@
     border: transparent;
     border-radius: 50px;
   }
+  body main .btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 46px;
+    font-weight: 400;
+    font-size: 15px;
+  }
   body footer {
+    width: 100%;
     background-color: rgb(53, 53, 53);
     color: white;
     padding-bottom: 30px;
@@ -119,14 +142,14 @@
     font-family: "Shrikhand", cursive;
     padding-top: 20px;
     padding-bottom: 14px;
-    font-size: 20px;
+    font-size: 17px;
   }
   body footer div a {
     color: white;
   }
   body footer div p {
     margin: 10px auto;
-    font-size: 18px;
+    font-size: 16px;
   }
   body footer div p i {
     font-size: 14px;

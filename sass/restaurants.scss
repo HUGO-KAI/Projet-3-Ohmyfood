@@ -20,13 +20,18 @@
     }
     body{
         width: 100%;
-        margin:0px 0px;
         font-family: 'Roboto', sans-serif;  
         header{
             width: 100%;
             border-top: solid 1px rgb(234, 234, 234);
             display: flex;
             align-items: center;
+            a{
+                display: block;
+                align-items: center;
+                padding-left: 10px;
+                font-size: 24px;
+            }
             &>img{
                 width: 50%;
                 height: auto;
@@ -38,19 +43,26 @@
         main{
             .photo_restaurant{
                 width: 100%;
-                
                 img{
                     
                     width: 100%;
                     object-fit: cover;
                 }
             }
+            .photo_restaurant-laNoteEnchantee{
+                width: 100%;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    height: 260px;
+                }
+            }
             article{
                 width: 100%;
                 background-color: $color3;
-                border-radius: 50px;
+                border-radius: 44px 44px 0px 0px;
                 margin-top: -50px;
-                position: absolute;
+                position: relative;
                 z-index: 10;
                 padding-bottom: 40px;
                 .nom_resto{
@@ -70,7 +82,7 @@
                     i{
                         display: flex;
                         justify-content: center;
-                        align-items: center;
+                        align-items: end;
                         font-size: 24px;
                         color: gray;
                     }
@@ -113,7 +125,16 @@
 
                 
             }
-            @import "./components/_button.scss";
+            
+            @import "./components/button.scss";
+            .btn{
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-top: 40px;
+                margin-bottom: 46px;
+                font-weight: 400;
+                font-size: 15px;
+            }
             
         }
         @import "./layouts/_footer.scss";
