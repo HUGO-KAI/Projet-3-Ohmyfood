@@ -83,7 +83,7 @@
                     font-weight: 100;
                     margin-top: 12px;
                 }
-                @import "./components/button";
+                @import "./components/_button.scss";
             }
             h3{
                 @include title1;
@@ -186,10 +186,17 @@
                         }
                         .heart{
                             font-size: 28px;
+                            
                             i{
+                                
                                 padding-top: 20px;
-                               
                                 color: rgb(100, 98, 98);
+                                &:hover{
+                                    background: #4fc277;
+	                                display: block;
+	                                color:#fff;
+                                    
+                                }
                             }
                         }
 
@@ -199,7 +206,7 @@
                 }
             }
         }
-        @import "./layouts/footer";
+        @import "./layouts/_footer.scss";
         
     }
 

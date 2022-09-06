@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: 550;
+  background: linear-gradient(360deg, #9356DC, #FF79DA);
+  color: #f6f6f6;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 50px;
+  box-shadow: 0px 0px 8px #b4b4b4;
+}
+
+.btn:hover {
+  filter: brightness(110%);
+  box-shadow: 0px 0px 8px #1b1b1b;
+}

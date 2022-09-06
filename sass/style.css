@@ -9,11 +9,11 @@
   body {
     width: 100%;
     margin: 0px 0px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   body header {
     width: 100%;
-    border-top: solid 1px rgb(234, 234, 234);
+    border-top: solid 1px #eaeaea;
     display: flex;
     align-items: center;
   }
@@ -25,13 +25,13 @@
   }
   body main .location {
     width: 100%;
-    background-color: rgb(234, 234, 234);
+    background-color: #eaeaea;
     height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0px 15px 10px -15px rgb(180, 180, 180);
+    box-shadow: inset 0px 15px 10px -15px #b4b4b4;
   }
   body main .location i {
     align-items: center;
@@ -41,13 +41,13 @@
   body main .location form input {
     font-size: 16px;
     font-weight: 600;
-    background-color: rgb(234, 234, 234);
+    background-color: #eaeaea;
     border: transparent;
     margin-left: 15px;
   }
   body main nav {
     width: 100%;
-    background-color: rgb(246, 246, 246);
+    background-color: #f6f6f6;
     padding-top: 40px;
     padding-bottom: 60px;
   }
@@ -62,7 +62,7 @@
     width: 92%;
     text-align: center;
     margin: auto;
-    color: rgb(130, 130, 130);
+    color: #828282;
     font-size: 18px;
     font-weight: 100;
     margin-top: 12px;
@@ -77,11 +77,11 @@
     font-size: 17px;
     font-weight: 550;
     background: linear-gradient(360deg, #9356DC, #FF79DA);
-    color: rgb(246, 246, 246);
+    color: #f6f6f6;
     cursor: pointer;
     border: transparent;
     border-radius: 50px;
-    box-shadow: 0px 0px 8px rgb(180, 180, 180);
+    box-shadow: 0px 0px 8px #b4b4b4;
   }
   body main nav .btn:hover {
     filter: brightness(110%);
@@ -101,12 +101,12 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    background-color: rgb(246, 246, 246);
+    background-color: #f6f6f6;
     margin: 30px auto;
     height: 80px;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 0px 0px 16px rgb(220, 220, 220);
+    box-shadow: 0px 0px 16px gainsboro;
   }
   body main .fonctionnement .filtre div {
     display: flex;
@@ -128,12 +128,12 @@
   }
   body main .fonctionnement .filtre > div:nth-child(2) {
     margin: auto 20px;
-    color: rgb(180, 180, 180);
+    color: #b4b4b4;
     font-size: 20px;
   }
   body main article {
     width: 100%;
-    background-color: rgb(246, 246, 246);
+    background-color: #f6f6f6;
     padding-bottom: 50px;
   }
   body main article .card {
@@ -193,7 +193,7 @@
   }
   body main article .card .card_info .heart i {
     padding-top: 20px;
-    color: rgb(100, 98, 98);
+    color: #646262;
   }
   body main article .card .card_info .heart i:hover {
     background: #4fc277;
@@ -202,7 +202,7 @@
   }
   body footer {
     width: 100%;
-    background-color: rgb(53, 53, 53);
+    background-color: #353535;
     color: white;
     padding-bottom: 30px;
   }
@@ -210,7 +210,7 @@
     padding-left: 24px;
   }
   body footer div:first-child {
-    font-family: "Shrikhand", cursive;
+    font-family: 'Shrikhand', cursive;
     padding-top: 20px;
     padding-bottom: 14px;
     font-size: 17px;
@@ -231,5 +231,3 @@
     padding-right: 10px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

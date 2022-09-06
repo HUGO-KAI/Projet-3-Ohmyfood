@@ -12,4 +12,9 @@
     cursor: pointer;
     border: transparent;
     border-radius: 50px;
+    box-shadow: 0px 0px 8px rgb(180, 180, 180);
+    &:hover{
+        filter: brightness(110%);
+        box-shadow:0px 0px 8px darken($color: rgb(180, 180, 180), $amount: 60);
+    }
 }
