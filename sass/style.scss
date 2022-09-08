@@ -18,7 +18,59 @@
         text-decoration: none;
         color:black;
     }
+    body, html {
+        margin: 0;
+        font-family: Roboto,sans-serif;
+        scroll-behavior: smooth;
+    }
     body{
+        width: 100%;
+        z-index: 9999;
+        .spinner {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: hsla(0,0%,100%,.9);
+            @import "./animations/-load.scss";
+            animation: loader .01s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+      }
+       
+      .spinner > div {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: bouncedelay 1s infinite ease-in-out;
+        animation: bouncedelay 1s 2 ease-in-out;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+       
+      .spinner .bounce1 {
+        background-color: #99E2D0;
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+      }
+       
+      .spinner .bounce2 {
+        background-color: #FF79DA;
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+      }
+      .spinner .bounce3 {
+        background-color: #9356DC;
+        }
+       
+      
        
         width: 100%;
         margin:0px 0px;
@@ -137,34 +189,32 @@
                     display: block;
                     width: 90%;
                     margin:auto;
-                    background-color: white;
+                    background-color: #fff;
                     border-radius: 20px;
                     margin-bottom: 20px;
+                    box-shadow: 0px 0px 16px $color1;
                     .card_photo{
                         width: 100%;
                         height: 200px;
-                        
+                        position: relative;
                         img{
                             width: 100%;
                             height:200px;
                             object-fit: cover;
                             object-position: bottom;
-                            border-radius: 20px 20px 0px 0px;;
+                            border-radius: 20px 20px 0px 0px;
                         }
                         .img_center{
                             object-position:0px -150px;
                         }
-                        div{
-                            width: 80px;
-                            padding: 5px 0px;
-                            margin-right: 20px;
-                            text-align: center;
-                            background-color: #99E2D0;
-                            position: relative;
-                            top: -190px;
-                            float: right;
-                            color:darken($color: #99E2D0, $amount: 35);
-                            font-weight: 600;
+                        span{
+                            background-color: #99e2d0;
+                            color: #1b6150;
+                            padding: 0.5rem;
+                            border-radius: 0.125rem;
+                            position: absolute;
+                            top: 1rem;
+                            right: 0.75rem;
                         
                         }      
                     }
@@ -186,30 +236,13 @@
                             font-size: 20px;
                             font-weight: 100;
                         }
-                        
+                        .heart-box{
+                            display: flex;
+                            align-items: center;
+                        }
                         .heart{
-                            font-size: 28px;
-                            color: black;
-                            cursor: pointer;
-                            padding-top: 20px;
-                            background-size: 600% 600%;
-                            background:linear-gradient(to right, white, #b35cdc);
-                            background:-webkit-linear-gradient(to right, white, #b35cdc);
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color:transparent;
-                            opacity: 1;
-                            @import "./animations/heart";
-                            animation:fill 2s ease infinite alternate;
-                            &:hover{
-                                display: inline-block;
-                                opacity: 1;
-                                /*background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-                                background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);*/
-                                /*-webkit-background-clip: text;
-                                -webkit-text-fill-color:transparent;*/
-                                font-weight: bold;
-                                
-                            }
+                            
+                            @import "./animations/heart"
                             
                         }
 

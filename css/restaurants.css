@@ -56,6 +56,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     width: 88%;
     margin: auto;
     padding: 0px 0px;
@@ -67,11 +68,18 @@
     margin-bottom: 0px;
   }
   body main article .nom_resto i {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    font-size: 24px;
-    color: gray;
+    display: inline-block;
+    font-size: 28px;
+    background-color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    cursor: pointer;
+    transition: all 1s ease-out;
+  }
+  body main article .nom_resto i:hover {
+    color: #FF79DA;
+    font-weight: bold;
+    opacity: 1;
   }
   body main article h3 {
     width: 88%;
@@ -120,6 +128,11 @@
     cursor: pointer;
     border: transparent;
     border-radius: 50px;
+    box-shadow: 0px 0px 8px rgb(180, 180, 180);
+  }
+  body main .btn:hover {
+    filter: brightness(110%);
+    box-shadow: 0px 0px 8px #1b1b1b;
   }
   body main .btn {
     padding-left: 50px;
