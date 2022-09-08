@@ -1,0 +1,30 @@
+@keyframes fill{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 50% 50%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }  
+
+}
+.gradient:hover{
+    display: inline-block;
+    opacity: 1;
+    animation:gradienBG 2s ease infinite alternate;
+    font-weight: bold;
+}
+
+@keyframes gradienBG{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 50% 50%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}

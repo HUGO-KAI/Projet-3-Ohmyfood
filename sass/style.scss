@@ -143,6 +143,7 @@
                     .card_photo{
                         width: 100%;
                         height: 200px;
+                        
                         img{
                             width: 100%;
                             height:200px;
@@ -156,11 +157,12 @@
                         div{
                             width: 80px;
                             padding: 5px 0px;
+                            margin-right: 20px;
                             text-align: center;
                             background-color: #99E2D0;
                             position: relative;
                             top: -190px;
-                            left: 240px;
+                            float: right;
                             color:darken($color: #99E2D0, $amount: 35);
                             font-weight: 600;
                         
@@ -184,20 +186,31 @@
                             font-size: 20px;
                             font-weight: 100;
                         }
+                        
                         .heart{
                             font-size: 28px;
-                            
-                            i{
+                            color: black;
+                            cursor: pointer;
+                            padding-top: 20px;
+                            background-size: 600% 600%;
+                            background:linear-gradient(to right, white, #b35cdc);
+                            background:-webkit-linear-gradient(to right, white, #b35cdc);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color:transparent;
+                            opacity: 1;
+                            @import "./animations/heart";
+                            animation:fill 2s ease infinite alternate;
+                            &:hover{
+                                display: inline-block;
+                                opacity: 1;
+                                /*background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+                                background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);*/
+                                /*-webkit-background-clip: text;
+                                -webkit-text-fill-color:transparent;*/
+                                font-weight: bold;
                                 
-                                padding-top: 20px;
-                                color: rgb(100, 98, 98);
-                                &:hover{
-                                    background: #4fc277;
-	                                display: block;
-	                                color:#fff;
-                                    
-                                }
                             }
+                            
                         }
 
                     }
