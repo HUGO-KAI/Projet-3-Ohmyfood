@@ -1,0 +1,31 @@
+.menu_item{
+    background-color: white;
+    width: 88%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    
+    animation:slide-in 1s ease-out;
+    animation-delay: 0.2s;
+    
+    h4{
+        font-size: 18px;
+        margin: 0px;
+        padding: 12px 10px 3px 10px;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 10px 12px 10px;
+        p{
+            margin: 0px;
+            font-size: 14px;
+            
+        }
+        .menu_item_price{
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}
