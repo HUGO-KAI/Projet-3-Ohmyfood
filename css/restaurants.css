@@ -118,89 +118,268 @@
     }
   }
   body main article .menu_item {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     width: 88%;
     margin: auto;
     margin-top: 15px;
     border-radius: 20px;
     animation: slide-in 1.5s 1 ease-out;
+    position: relative;
+    cursor: pointer;
     animation-delay: -0.48s;
   }
-  body main article .menu_item h4 {
+  body main article .menu_item:hover > .menu_item__confirmation {
+    transform: scaleX(1);
+    margin-right: 0px;
+  }
+  body main article .menu_item:hover > .menu_item__confirmation > .menu_item__wrapIcon {
+    transform: rotate(0);
+  }
+  body main article .menu_item section {
+    width: 100%;
+  }
+  body main article .menu_item section h4 {
     font-size: 18px;
     margin: 0px;
     padding: 12px 10px 3px 10px;
   }
-  body main article .menu_item div {
+  body main article .menu_item section .menu_item__info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px 12px 10px;
   }
-  body main article .menu_item div p {
+  body main article .menu_item section .menu_item__info p {
     margin: 0px;
     font-size: 14px;
   }
-  body main article .menu_item div .menu_item_price {
+  body main article .menu_item section .menu_item__info .menu_item_price {
     font-size: 16px;
     font-weight: 600;
+  }
+  body main article .menu_item .menu_item__confirmation {
+    width: 66px;
+    background-color: #99E2D0;
+    transform: scaleX(0);
+    transform-origin: left;
+    margin-right: -60px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+  }
+  body main article .menu_item .menu_item__confirmation .menu_item__wrapIcon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
   }
   body main article .menu_item1 {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     width: 88%;
     margin: auto;
     margin-top: 15px;
     border-radius: 20px;
     animation: slide-in 1.5s 1 ease-out;
+    position: relative;
+    cursor: pointer;
     animation-delay: -0.32s;
   }
-  body main article .menu_item1 h4 {
+  body main article .menu_item1:hover > .menu_item__confirmation {
+    transform: scaleX(1);
+    margin-right: 0px;
+  }
+  body main article .menu_item1:hover > .menu_item__confirmation > .menu_item__wrapIcon {
+    transform: rotate(0);
+  }
+  body main article .menu_item1 section {
+    width: 100%;
+  }
+  body main article .menu_item1 section h4 {
     font-size: 18px;
     margin: 0px;
     padding: 12px 10px 3px 10px;
   }
-  body main article .menu_item1 div {
+  body main article .menu_item1 section .menu_item__info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px 12px 10px;
   }
-  body main article .menu_item1 div p {
+  body main article .menu_item1 section .menu_item__info p {
     margin: 0px;
     font-size: 14px;
   }
-  body main article .menu_item1 div .menu_item_price {
+  body main article .menu_item1 section .menu_item__info .menu_item_price {
     font-size: 16px;
     font-weight: 600;
   }
+  body main article .menu_item1 .menu_item__confirmation {
+    width: 66px;
+    background-color: #99E2D0;
+    transform: scaleX(0);
+    transform-origin: left;
+    margin-right: -60px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+  }
+  body main article .menu_item1 .menu_item__confirmation .menu_item__wrapIcon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+  }
   body main article .menu_item2 {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     width: 88%;
     margin: auto;
     margin-top: 15px;
     border-radius: 20px;
-    animation-delay: 0.3s;
     animation: slide-in 1.5s 1 ease-out;
+    position: relative;
+    cursor: pointer;
     animation-delay: -0.16s;
   }
-  body main article .menu_item2 h4 {
+  body main article .menu_item2:hover > .menu_item__confirmation {
+    transform: scaleX(1);
+    margin-right: 0px;
+  }
+  body main article .menu_item2:hover > .menu_item__confirmation > .menu_item__wrapIcon {
+    transform: rotate(0);
+  }
+  body main article .menu_item2 section {
+    width: 100%;
+  }
+  body main article .menu_item2 section h4 {
     font-size: 18px;
     margin: 0px;
     padding: 12px 10px 3px 10px;
   }
-  body main article .menu_item2 div {
+  body main article .menu_item2 section .menu_item__info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px 12px 10px;
   }
-  body main article .menu_item2 div p {
+  body main article .menu_item2 section .menu_item__info p {
     margin: 0px;
     font-size: 14px;
   }
-  body main article .menu_item2 div .menu_item_price {
+  body main article .menu_item2 section .menu_item__info .menu_item_price {
     font-size: 16px;
     font-weight: 600;
+  }
+  body main article .menu_item2 .menu_item__confirmation {
+    width: 66px;
+    background-color: #99E2D0;
+    transform: scaleX(0);
+    transform-origin: left;
+    margin-right: -60px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+  }
+  body main article .menu_item2 .menu_item__confirmation .menu_item__wrapIcon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+  }
+  body main article .menu_item3 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 88%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    animation: slide-in 1.5s 1 ease-out;
+    position: relative;
+    cursor: pointer;
+    animation-delay: -0.01s;
+  }
+  body main article .menu_item3:hover > .menu_item__confirmation {
+    transform: scaleX(1);
+    margin-right: 0px;
+  }
+  body main article .menu_item3:hover > .menu_item__confirmation > .menu_item__wrapIcon {
+    transform: rotate(0);
+  }
+  body main article .menu_item3 section {
+    width: 100%;
+  }
+  body main article .menu_item3 section h4 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 12px 10px 3px 10px;
+  }
+  body main article .menu_item3 section .menu_item__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px 12px 10px;
+  }
+  body main article .menu_item3 section .menu_item__info p {
+    margin: 0px;
+    font-size: 14px;
+  }
+  body main article .menu_item3 section .menu_item__info .menu_item_price {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  body main article .menu_item3 .menu_item__confirmation {
+    width: 66px;
+    background-color: #99E2D0;
+    transform: scaleX(0);
+    transform-origin: left;
+    margin-right: -60px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+  }
+  body main article .menu_item3 .menu_item__confirmation .menu_item__wrapIcon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
   }
   body main .btn {
     display: block;

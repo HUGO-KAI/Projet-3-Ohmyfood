@@ -92,95 +92,94 @@
                     margin-top: 30px;
                 }
                 @import "./animations/_menuItem.scss";
-                .menu_item{
+                @mixin menuItem {
+                    display: flex;
+                    flex-direction: row;
                     background-color: white;
                     width: 88%;
                     margin: auto;
                     margin-top: 15px;
                     border-radius: 20px;
                     animation:slide-in 1.5s 1 ease-out;
-                    animation-delay: -0.48s;
                     
-                    h4{
-                        font-size: 18px;
-                        margin: 0px;
-                        padding: 12px 10px 3px 10px;
+                    position: relative;
+                    cursor: pointer;
+                    &:hover{
+                        & > .menu_item__confirmation{
+                            transform: scaleX(1);
+                            margin-right: 0px;
+                            &>.menu_item__wrapIcon {
+                                transform: rotate(0);
+                              }
+                        }
                     }
-                    div{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        padding: 0px 10px 12px 10px;
-                        p{
+                    section{
+                        width: 100%;
+                        h4{
+                            font-size: 18px;
                             margin: 0px;
-                            font-size: 14px;
-                            
+                            padding: 12px 10px 3px 10px;
                         }
-                        .menu_item_price{
-                            font-size: 16px;
-                            font-weight: 600;
+                        .menu_item__info{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            padding: 0px 10px 12px 10px;
+                            p{
+                                margin: 0px;
+                                font-size: 14px;
+                                
+                            }
+                            .menu_item_price{
+                                font-size: 16px;
+                                font-weight: 600;
+                            }
                         }
                     }
+                    
+                    .menu_item__confirmation{
+                        width: 66px;
+                        background-color:#99E2D0;
+                        transform: scaleX(0);
+                        transform-origin: left;
+                        margin-right: -60px;
+                        border-radius: 0px 20px 20px 0px;
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
+                        transition-duration: 0.5s;
+                        .menu_item__wrapIcon {
+                            height: 1.6rem;
+                            width: 1.6rem;
+                            background-color: white;
+                            display:flex;
+                            align-items:center;
+                            justify-content:center;
+                            border-radius: 100px;
+                            transform: rotate(-180deg);
+                            transition-duration: 0.3s;
+                            transition-delay: 0.2s;
+                        }
+                    }
+                }
+                .menu_item{
+                    @include menuItem;
+                    animation-delay: -0.48s;
                 }
                 .menu_item1{
-                    background-color: white;
-                    width: 88%;
-                    margin: auto;
-                    margin-top: 15px;
-                    border-radius: 20px;
-                    animation:slide-in 1.5s 1 ease-out;
+                    @include menuItem;
                     animation-delay: -0.32s;
-                                       
-                    h4{
-                        font-size: 18px;
-                        margin: 0px;
-                        padding: 12px 10px 3px 10px;
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        padding: 0px 10px 12px 10px;
-                        p{
-                            margin: 0px;
-                            font-size: 14px;
-                            
-                        }
-                        .menu_item_price{
-                            font-size: 16px;
-                            font-weight: 600;
-                        }
-                    }
+                   
                 }
                 .menu_item2{
-                    background-color: white;
-                    width: 88%;
-                    margin: auto;
-                    margin-top: 15px;
-                    border-radius: 20px;
-                    animation-delay: 0.3s;
-                    animation:slide-in 1.5s 1 ease-out;
+                    @include menuItem;
                     animation-delay: -0.16s;
-                    h4{
-                        font-size: 18px;
-                        margin: 0px;
-                        padding: 12px 10px 3px 10px;
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        padding: 0px 10px 12px 10px;
-                        p{
-                            margin: 0px;
-                            font-size: 14px;
-                            
-                        }
-                        .menu_item_price{
-                            font-size: 16px;
-                            font-weight: 600;
-                        }
-                    }
+                   
+                }
+                .menu_item3{
+                    @include menuItem;
+                    animation-delay: -0.01s;
+                   
                 }
                 
             }
