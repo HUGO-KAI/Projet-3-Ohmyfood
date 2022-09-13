@@ -5,10 +5,14 @@
     background-clip: content-box;
     -webkit-background-clip: text;
     cursor: pointer;
-    transition:all 1s ease-out;    
+    transition:all 1s ease-out;
+     
 }
 &:hover{
-    color: #FF79DA;
+    color: transparent;
+    background: linear-gradient(180deg, #9356DC, #FF79DA);
+    background-clip: content-box;
+    -webkit-background-clip: text;
     font-weight: bold;
     opacity: 1;
 }

@@ -271,7 +271,10 @@
     transition: all 1s ease-out;
   }
   body main article .card .card_info .heart:hover {
-    color: #FF79DA;
+    color: transparent;
+    background: linear-gradient(180deg, #9356DC, #FF79DA);
+    background-clip: content-box;
+    -webkit-background-clip: text;
     font-weight: bold;
     opacity: 1;
   }
