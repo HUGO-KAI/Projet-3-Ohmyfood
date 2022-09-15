@@ -14,7 +14,6 @@
   body {
     width: 100%;
     z-index: 9999;
-    width: 100%;
     margin: 0px 0px;
     font-family: "Roboto", sans-serif;
   }
@@ -89,7 +88,7 @@
   body header > img {
     width: 50%;
     height: auto;
-    margin: 18px auto;
+    margin: 1.1rem auto;
     align-items: center;
   }
   body main .location {
@@ -104,27 +103,27 @@
   }
   body main .location i {
     align-items: center;
-    padding-left: 48px;
-    font-size: 18px;
+    padding-left: 3rem;
+    font-size: 1.1rem;
   }
   body main .location form input {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     background-color: rgb(234, 234, 234);
     border: transparent;
-    margin-left: 15px;
+    margin-left: 0.9rem;
   }
   body main nav {
     width: 100%;
     background-color: rgb(246, 246, 246);
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 2.5rem;
+    padding-bottom: 3.8rem;
   }
   body main nav h2 {
     width: 76%;
     text-align: center;
     margin: auto;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
   }
   body main nav h6 {
@@ -132,9 +131,9 @@
     text-align: center;
     margin: auto;
     color: rgb(130, 130, 130);
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 100;
-    margin-top: 12px;
+    margin-top: 0.8rem;
   }
   body main nav .btn {
     display: block;
@@ -157,31 +156,31 @@
     box-shadow: 0px 0px 8px #1b1b1b;
   }
   body main h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
-    padding-left: 20px;
-    padding-top: 50px;
+    padding-left: 1.25rem;
+    padding-top: 3rem;
     margin-top: 0px;
   }
   body main .fonctionnement {
-    padding-bottom: 50px;
+    padding-bottom: 3.1rem;
   }
   body main .fonctionnement .filtre {
     display: flex;
     flex-direction: row;
     width: 80%;
     background-color: rgb(246, 246, 246);
-    margin: 30px auto;
+    margin: 1.9rem auto;
     height: 80px;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     box-shadow: 0px 0px 16px rgb(220, 220, 220);
   }
   body main .fonctionnement .filtre div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
   }
   body main .fonctionnement .filtre > div:first-child {
@@ -189,16 +188,16 @@
     width: 30px;
     height: 30px;
     border: transparent;
-    border-radius: 15px;
-    margin-left: -14px;
+    border-radius: 1rem;
+    margin-left: -0.9rem;
     color: white;
     text-align: center;
     align-items: center;
   }
   body main .fonctionnement .filtre > div:nth-child(2) {
-    margin: auto 20px;
+    margin: auto 1.25rem;
     color: rgb(180, 180, 180);
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   body main article {
     width: 100%;
@@ -210,7 +209,7 @@
     width: 90%;
     margin: auto;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     margin-bottom: 20px;
     box-shadow: 0px 0px 16px rgb(220, 220, 220);
   }
@@ -224,10 +223,10 @@
     height: 200px;
     object-fit: cover;
     object-position: bottom;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 1.25rem 1.25rem 0px 0px;
   }
   body main article .card .card_photo .img_center {
-    object-position: 0px -150px;
+    object-position: 0px -9.4rem;
   }
   body main article .card .card_photo span {
     background-color: #99e2d0;
@@ -244,17 +243,17 @@
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
   }
   body main article .card .card_info h4 {
     margin: auto auto;
-    font-size: 20px;
-    padding-top: 16px;
+    font-size: 1.25rem;
+    padding-top: 1rem;
   }
   body main article .card .card_info h6 {
     padding-top: 4px;
     margin: auto auto;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 100;
   }
   body main article .card .card_info .heart-box {

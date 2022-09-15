@@ -7,11 +7,11 @@
     $color3:rgb(246, 246, 246);
     $color4:rgb(180, 180, 180);
     @mixin title1{
-        font-size: 28px;
+        font-size: 1.75rem;
         font-weight: bold;
     }
     @mixin text1{
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 600;
     }
     a{
@@ -26,7 +26,6 @@
     body{
         width: 100%;
         z-index: 9999;
-        width: 100%;
         margin:0px 0px;
         font-family: 'Roboto', sans-serif; 
         .spinner {
@@ -84,7 +83,7 @@
             &>img{
                 width: 50%;
                 height: auto;
-                margin: 18px auto;
+                margin: 1.1rem auto;
                 align-items: center;
             }
             
@@ -101,8 +100,8 @@
                 box-shadow:inset 0px 15px 10px -15px $color4;
                 i{
                     align-items: center;
-                    padding-left: 48px;
-                    font-size: 18px;
+                    padding-left: 3rem;
+                    font-size: 1.1rem;
                 }
                 form{
 
@@ -110,7 +109,7 @@
                         @include text1;
                         background-color: $color2; 
                         border: transparent;
-                        margin-left: 15px;
+                        margin-left: 0.9rem;
                     }
 
                 } 
@@ -119,8 +118,8 @@
             nav{
                 width: 100%;
                 background-color: rgb(246, 246, 246);
-                padding-top: 40px;
-                padding-bottom: 60px;
+                padding-top: 2.5rem;
+                padding-bottom: 3.8rem;
                 h2{
                     width: 76%;
                     text-align: center;
@@ -132,29 +131,29 @@
                     text-align: center;
                     margin: auto;
                     color: rgb(130, 130, 130);
-                    font-size: 18px;
+                    font-size: 1.1rem;
                     font-weight: 100;
-                    margin-top: 12px;
+                    margin-top: 0.8rem;
                 }
                 @import "./components/_button.scss";
             }
             h3{
                 @include title1;
-                padding-left: 20px;
-                padding-top: 50px;
+                padding-left: 1.25rem;
+                padding-top: 3rem;
                 margin-top: 0px;
             }
             .fonctionnement{
-                padding-bottom: 50px;
+                padding-bottom: 3.1rem;
                 .filtre{
                     display: flex;
                     flex-direction: row;
                     width: 80%;
                     background-color: $color3;
-                    margin: 30px auto;
+                    margin: 1.9rem auto;
                     height: 80px;
                     align-items: center;
-                    border-radius: 20px;
+                    border-radius: 1.25rem;
                     box-shadow: 0px 0px 16px $color1;
                     
                     div{
@@ -169,16 +168,16 @@
                         width: 30px;
                         height: 30px;
                         border: transparent;
-                        border-radius: 15px;
-                        margin-left: -14px;
+                        border-radius: 1rem;
+                        margin-left: -0.9rem;
                         color: white;
                         text-align: center;
                         align-items: center;
                     }
                     >div:nth-child(2){
-                        margin: auto 20px;
+                        margin: auto 1.25rem;
                         color: $color4;
-                        font-size: 20px;
+                        font-size: 1.25rem;
                     }
                 }
             }
@@ -191,7 +190,7 @@
                     width: 90%;
                     margin:auto;
                     background-color: #fff;
-                    border-radius: 20px;
+                    border-radius: 1.25rem;
                     margin-bottom: 20px;
                     box-shadow: 0px 0px 16px $color1;
                     .card_photo{
@@ -203,10 +202,10 @@
                             height:200px;
                             object-fit: cover;
                             object-position: bottom;
-                            border-radius: 20px 20px 0px 0px;
+                            border-radius: 1.25rem 1.25rem 0px 0px;
                         }
                         .img_center{
-                            object-position:0px -150px;
+                            object-position:0px -9.4rem;
                         }
                         span{
                             background-color: #99e2d0;
@@ -225,16 +224,16 @@
                         justify-content: space-between;
                         width: 90%;
                         margin: auto;
-                        padding-bottom: 16px;
+                        padding-bottom: 1rem;
                         h4{
                             margin: auto auto;
-                            font-size: 20px;
-                            padding-top: 16px;
+                            font-size: 1.25rem;
+                            padding-top: 1rem;
                         }
                         h6{
                             padding-top: 4px;
                             margin: auto auto;
-                            font-size: 20px;
+                            font-size: 1.25rem;
                             font-weight: 100;
                         }
                         .heart-box{
