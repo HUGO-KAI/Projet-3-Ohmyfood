@@ -9,22 +9,26 @@ footer{
             font-family: 'Shrikhand', cursive;
             padding-top: 20px;
             padding-bottom: 14px;
-            font-size: 17px;
+            font-size: 1.1rem;
         }
         a{
             color:white;
         }
         p{
             margin:10px auto;
-            font-size: 16px;
+            font-size: 1rem;
             i{
-                font-size: 14px;
+                font-size: 0.9rem;
+                
             }
             span{
                 display: inline-block;
                 width: 28px;
                 padding-right: 10px;
-                
+                .handshake{
+                    transform: scale(0.8);
+                    transform-origin: left;
+                }
             }
         }
        

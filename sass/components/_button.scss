@@ -4,9 +4,9 @@
     padding-right: 20px;
     height: 50px;
     margin: auto;
-    margin-top: 40px;
-    font-size: 17px;
-    font-weight: 550;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
     background: linear-gradient(360deg, #9356DC,#FF79DA);
     color:rgb(246, 246, 246);
     cursor: pointer;
@@ -15,6 +15,6 @@
     box-shadow: 0px 0px 8px rgb(180, 180, 180);
     &:hover{
         filter: brightness(110%);
-        box-shadow:0px 0px 8px darken($color: rgb(180, 180, 180), $amount: 60);
+        box-shadow:0px 0px 10px darken($color: rgb(180, 180, 180), $amount: 40);
     }
 }

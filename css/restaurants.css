@@ -11,19 +11,22 @@
     font-family: "Roboto", sans-serif;
   }
   body header {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     border-top: solid 1px rgb(234, 234, 234);
     display: flex;
     align-items: center;
+    position: relative;
   }
   body header a {
     display: block;
     align-items: center;
-    padding-left: 10px;
-    font-size: 24px;
+    font-size: 1.3rem;
+    position: absolute;
+    float: left;
   }
   body header > img {
-    width: 50%;
+    width: 10.5rem;
     height: auto;
     margin: 18px auto;
     align-items: center;
@@ -72,20 +75,21 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    width: 88%;
+    width: 90%;
     margin: auto;
     padding: 0px 0px;
   }
   body main article .nom_resto h2 {
-    font-size: 28px;
+    padding-top: 12px;
+    font-size: 1.75rem;
     font-weight: 400;
     font-family: "Shrikhand", cursive;
     margin-bottom: 0px;
   }
   body main article .nom_resto i {
     display: inline-block;
-    font-size: 28px;
-    background-color: transparent;
+    font-size: 1.5rem;
+    background-color: white;
     background-clip: content-box;
     -webkit-background-clip: text;
     cursor: pointer;
@@ -93,6 +97,7 @@
   }
   body main article .nom_resto i:hover {
     color: transparent;
+    background-color: white;
     background: linear-gradient(180deg, #9356DC, #FF79DA);
     background-clip: content-box;
     -webkit-background-clip: text;
@@ -103,8 +108,8 @@
     width: 90%;
     margin: auto;
     font-weight: 100;
-    font-size: 1rem;
-    margin-top: 40px;
+    font-size: 0.9rem;
+    margin-top: 30px;
   }
   body main article .submenu-header h3 {
     margin-bottom: 0.3rem;
@@ -138,8 +143,9 @@
     width: 94%;
     margin: auto;
     margin-top: 15px;
-    border-radius: 15px;
+    border-radius: 1rem;
     animation: slide-in 1.5s 1 ease-out;
+    box-shadow: 0px 0px 8px rgb(220, 220, 220);
     position: relative;
     cursor: pointer;
     animation-delay: -0.48s;
@@ -155,20 +161,22 @@
     width: 84%;
     white-space: nowrap;
     overflow: hidden;
-    padding: 12px 10px 12px 10px;
+    padding: 11px 0px 11px 10px;
+  }
+  body main article .menu_item section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 6px;
+    overflow-wrap: normal;
+  }
+  body main article .menu_item section p {
+    font-size: 0.95rem;
   }
   body main article .menu_item section h4, body main article .menu_item section p {
     margin: 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-  }
-  body main article .menu_item section h4 {
-    font-size: 1.2rem;
-    padding-bottom: 6px;
-  }
-  body main article .menu_item section p {
-    font-size: 1rem;
   }
   body main article .menu_item .menu_item__price {
     display: flex;
@@ -185,7 +193,7 @@
     transform: scaleX(0);
     transform-origin: right;
     margin-right: -80px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 1rem 1rem 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,6 +212,10 @@
     transition-duration: 0.3s;
     transition-delay: 0.2s;
   }
+  body main article .menu_item .menu_item__confirmation .menu_item__wrapIcon .menu_item__icon {
+    color: #99E2D0;
+    font-size: small;
+  }
   body main article .menu_item1 {
     display: flex;
     flex-direction: row;
@@ -212,8 +224,9 @@
     width: 94%;
     margin: auto;
     margin-top: 15px;
-    border-radius: 15px;
+    border-radius: 1rem;
     animation: slide-in 1.5s 1 ease-out;
+    box-shadow: 0px 0px 8px rgb(220, 220, 220);
     position: relative;
     cursor: pointer;
     animation-delay: -0.32s;
@@ -229,20 +242,22 @@
     width: 84%;
     white-space: nowrap;
     overflow: hidden;
-    padding: 12px 10px 12px 10px;
+    padding: 11px 0px 11px 10px;
+  }
+  body main article .menu_item1 section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 6px;
+    overflow-wrap: normal;
+  }
+  body main article .menu_item1 section p {
+    font-size: 0.95rem;
   }
   body main article .menu_item1 section h4, body main article .menu_item1 section p {
     margin: 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-  }
-  body main article .menu_item1 section h4 {
-    font-size: 1.2rem;
-    padding-bottom: 6px;
-  }
-  body main article .menu_item1 section p {
-    font-size: 1rem;
   }
   body main article .menu_item1 .menu_item__price {
     display: flex;
@@ -259,7 +274,7 @@
     transform: scaleX(0);
     transform-origin: right;
     margin-right: -80px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 1rem 1rem 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,6 +293,10 @@
     transition-duration: 0.3s;
     transition-delay: 0.2s;
   }
+  body main article .menu_item1 .menu_item__confirmation .menu_item__wrapIcon .menu_item__icon {
+    color: #99E2D0;
+    font-size: small;
+  }
   body main article .menu_item2 {
     display: flex;
     flex-direction: row;
@@ -286,8 +305,9 @@
     width: 94%;
     margin: auto;
     margin-top: 15px;
-    border-radius: 15px;
+    border-radius: 1rem;
     animation: slide-in 1.5s 1 ease-out;
+    box-shadow: 0px 0px 8px rgb(220, 220, 220);
     position: relative;
     cursor: pointer;
     animation-delay: -0.16s;
@@ -303,20 +323,22 @@
     width: 84%;
     white-space: nowrap;
     overflow: hidden;
-    padding: 12px 10px 12px 10px;
+    padding: 11px 0px 11px 10px;
+  }
+  body main article .menu_item2 section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 6px;
+    overflow-wrap: normal;
+  }
+  body main article .menu_item2 section p {
+    font-size: 0.95rem;
   }
   body main article .menu_item2 section h4, body main article .menu_item2 section p {
     margin: 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-  }
-  body main article .menu_item2 section h4 {
-    font-size: 1.2rem;
-    padding-bottom: 6px;
-  }
-  body main article .menu_item2 section p {
-    font-size: 1rem;
   }
   body main article .menu_item2 .menu_item__price {
     display: flex;
@@ -333,7 +355,7 @@
     transform: scaleX(0);
     transform-origin: right;
     margin-right: -80px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 1rem 1rem 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,6 +374,10 @@
     transition-duration: 0.3s;
     transition-delay: 0.2s;
   }
+  body main article .menu_item2 .menu_item__confirmation .menu_item__wrapIcon .menu_item__icon {
+    color: #99E2D0;
+    font-size: small;
+  }
   body main article .menu_item3 {
     display: flex;
     flex-direction: row;
@@ -360,8 +386,9 @@
     width: 94%;
     margin: auto;
     margin-top: 15px;
-    border-radius: 15px;
+    border-radius: 1rem;
     animation: slide-in 1.5s 1 ease-out;
+    box-shadow: 0px 0px 8px rgb(220, 220, 220);
     position: relative;
     cursor: pointer;
     animation-delay: -0.01s;
@@ -377,20 +404,22 @@
     width: 84%;
     white-space: nowrap;
     overflow: hidden;
-    padding: 12px 10px 12px 10px;
+    padding: 11px 0px 11px 10px;
+  }
+  body main article .menu_item3 section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 6px;
+    overflow-wrap: normal;
+  }
+  body main article .menu_item3 section p {
+    font-size: 0.95rem;
   }
   body main article .menu_item3 section h4, body main article .menu_item3 section p {
     margin: 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-  }
-  body main article .menu_item3 section h4 {
-    font-size: 1.2rem;
-    padding-bottom: 6px;
-  }
-  body main article .menu_item3 section p {
-    font-size: 1rem;
   }
   body main article .menu_item3 .menu_item__price {
     display: flex;
@@ -407,7 +436,7 @@
     transform: scaleX(0);
     transform-origin: right;
     margin-right: -80px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 1rem 1rem 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -426,15 +455,19 @@
     transition-duration: 0.3s;
     transition-delay: 0.2s;
   }
+  body main article .menu_item3 .menu_item__confirmation .menu_item__wrapIcon .menu_item__icon {
+    color: #99E2D0;
+    font-size: small;
+  }
   body main .btn {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
     height: 50px;
     margin: auto;
-    margin-top: 40px;
-    font-size: 17px;
-    font-weight: 550;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
     background: linear-gradient(360deg, #9356DC, #FF79DA);
     color: rgb(246, 246, 246);
     cursor: pointer;
@@ -444,13 +477,13 @@
   }
   body main .btn:hover {
     filter: brightness(110%);
-    box-shadow: 0px 0px 8px #1b1b1b;
+    box-shadow: 0px 0px 10px #4e4e4e;
   }
   body main .btn {
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 40px;
-    margin-bottom: 46px;
+    margin-top: 46px;
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 15px;
   }
@@ -467,22 +500,26 @@
     font-family: "Shrikhand", cursive;
     padding-top: 20px;
     padding-bottom: 14px;
-    font-size: 17px;
+    font-size: 1.1rem;
   }
   body footer div a {
     color: white;
   }
   body footer div p {
     margin: 10px auto;
-    font-size: 16px;
+    font-size: 1rem;
   }
   body footer div p i {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   body footer div p span {
     display: inline-block;
     width: 28px;
     padding-right: 10px;
+  }
+  body footer div p span .handshake {
+    transform: scale(0.8);
+    transform-origin: left;
   }
 }
 

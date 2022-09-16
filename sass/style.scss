@@ -1,19 +1,9 @@
-@media screen {
+@media screen  and (max-width: 480px){
     *{
         box-sizing: border-box;
     }
-    $color1:rgb(220, 220, 220);
-    $color2:rgb(234, 234, 234);
-    $color3:rgb(246, 246, 246);
-    $color4:rgb(180, 180, 180);
-    @mixin title1{
-        font-size: 1.75rem;
-        font-weight: bold;
-    }
-    @mixin text1{
-        font-size: 1rem;
-        font-weight: 600;
-    }
+    @import "./utils/variables";
+    @import "./utils/mixins";
     a{
         text-decoration: none;
         color:black;
@@ -28,71 +18,13 @@
         z-index: 9999;
         margin:0px 0px;
         font-family: 'Roboto', sans-serif; 
-        .spinner {
-            position: fixed;
-            height: 100%;
-            width: 100%;
-            left: 0;
-            top: 0;
-            background-color: hsla(0,0%,100%,.9);
-            @import "./animations/loading.scss";
-            animation: loader 0.1s;
-            animation-delay: 2s;
-            animation-fill-mode: both;
-            z-index: 10000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-      }
-       
-      .spinner > div {
-        width: 30px;
-        height: 30px;
-        border-radius: 100%;
-        display: inline-block;
-        -webkit-animation: balldelay 1s infinite ease-in-out;
-        animation: balldelay 1s 2 ease-in-out;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-      }
-       
-      .spinner .ball1 {
-        background-color: #99E2D0;
-        -webkit-animation-delay: -0.32s;
-        animation-delay: -0.32s;
-      }
-       
-      .spinner .ball2 {
-        background-color: #FF79DA;
-        -webkit-animation-delay: -0.16s;
-        animation-delay: -0.16s;
-      }
-      .spinner .ball3 {
-        background-color: #9356DC;
-        }
-       
-      
-       
-         
-        header{
-            width: 100%;
-            border-top: solid 1px rgb(234, 234, 234);
-            display: flex;
-            align-items: center;
-            &>img{
-                width: 50%;
-                height: auto;
-                margin: 1.1rem auto;
-                align-items: center;
-            }
-            
-        }
+        @import "./animations/loading";
+        @import "./layouts/header";
         main{
             .location{
                 width: 100%;
                 background-color:rgb(234, 234, 234);
-                height: 55px;
+                height: 50px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -119,7 +51,7 @@
                 width: 100%;
                 background-color: rgb(246, 246, 246);
                 padding-top: 2.5rem;
-                padding-bottom: 3.8rem;
+                padding-bottom: 3.3rem;
                 h2{
                     width: 76%;
                     text-align: center;
@@ -139,7 +71,8 @@
             }
             h3{
                 @include title1;
-                padding-left: 1.25rem;
+                width: 90%;
+                margin: auto;
                 padding-top: 3rem;
                 margin-top: 0px;
             }
@@ -148,10 +81,9 @@
                 .filtre{
                     display: flex;
                     flex-direction: row;
-                    width: 80%;
                     background-color: $color3;
-                    margin: 1.9rem auto;
-                    height: 80px;
+                    margin: 1.7rem 5% 1.7rem 9%;
+                    height: 70px;
                     align-items: center;
                     border-radius: 1.25rem;
                     box-shadow: 0px 0px 16px $color1;
@@ -165,14 +97,21 @@
                     
                     >div:first-child{
                         background-color:#9356DC;
-                        width: 30px;
-                        height: 30px;
+                        width: 24px;
+                        height: 24px;
                         border: transparent;
                         border-radius: 1rem;
                         margin-left: -0.9rem;
                         color: white;
-                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 300;
+                        display: flex;
+                        text-align:center;
                         align-items: center;
+                        span{
+                            display: block;
+                            padding-top: 3px;
+                        }
                     }
                     >div:nth-child(2){
                         margin: auto 1.25rem;
@@ -185,6 +124,9 @@
             width: 100%;
             background-color: $color3;
             padding-bottom: 50px;
+            .container{
+                margin-top: 24px;
+            }
                 .card{
                     display: block;
                     width: 90%;
@@ -195,11 +137,11 @@
                     box-shadow: 0px 0px 16px $color1;
                     .card_photo{
                         width: 100%;
-                        height: 200px;
+                        height: 170px;
                         position: relative;
                         img{
                             width: 100%;
-                            height:200px;
+                            height: 170px;
                             object-fit: cover;
                             object-position: bottom;
                             border-radius: 1.25rem 1.25rem 0px 0px;
@@ -208,9 +150,11 @@
                             object-position:0px -9.4rem;
                         }
                         span{
-                            background-color: #99e2d0;
-                            color: #1b6150;
-                            padding: 0.5rem;
+                            background-color: $color-tertiaire;
+                            font-size: 0.9rem;
+                            font-weight: 550;
+                            color: darken($color: #99E2D0, $amount: 40);
+                            padding: 0.4rem 0.6rem 0.4rem 0.6rem;
                             border-radius: 0.125rem;
                             position: absolute;
                             top: 1rem;
@@ -227,14 +171,14 @@
                         padding-bottom: 1rem;
                         h4{
                             margin: auto auto;
-                            font-size: 1.25rem;
+                            font-size: 1.1rem;
                             padding-top: 1rem;
                         }
                         h6{
                             padding-top: 4px;
                             margin: auto auto;
-                            font-size: 1.25rem;
-                            font-weight: 100;
+                            font-size: 1.1rem;
+                            font-weight:lighter;
                         }
                         .heart-box{
                             display: flex;

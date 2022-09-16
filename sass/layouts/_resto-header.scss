@@ -1,0 +1,23 @@
+header{
+    width: 90%;
+    margin: auto;
+    border-top: solid 1px rgb(234, 234, 234);
+    display: flex;
+    align-items: center;
+    position: relative;
+    a{
+        display: block;
+        align-items: center;
+        
+        font-size: 1.3rem;
+        position: absolute;
+        float: left;
+    }
+    &>img{
+        width: 10.5rem;
+        height: auto;
+        margin: 18px auto;
+        align-items: center;
+    }
+    
+}

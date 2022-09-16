@@ -1,0 +1,98 @@
+
+@mixin title1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+@mixin text1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+@mixin menuItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 94%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 1rem;
+    animation:slide-in 1.5s 1 ease-out;
+    box-shadow: 0px 0px 8px rgb(220, 220, 220);
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        & > .menu_item__confirmation{
+            transform: scaleX(1);
+            margin-right: 0px;
+            &>.menu_item__wrapIcon {
+                transform: rotate(0);
+              }
+        }
+    }
+    section{
+        width: 84%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 11px 0px 11px 10px;
+        h4{
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding-bottom: 6px;
+            overflow-wrap: normal;
+        }
+        p{
+            font-size: 0.95rem;
+        }
+        h4,p{
+            margin: 0px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+       
+       
+    }
+    
+    .menu_item__price{
+        
+        display: flex;
+        align-items: end;
+        text-align:right;
+        padding: 12px 20px 12px 10px;
+        
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+    
+    .menu_item__confirmation{
+        width: 76px;
+        background-color:#99E2D0;
+        transform: scaleX(0);
+        transform-origin: right;
+        margin-right: -80px;
+        border-radius: 0px 1rem 1rem 0px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        transition-duration: 0.5s;
+        white-space: nowrap;
+        .menu_item__wrapIcon {
+            height: 1.6rem;
+            width: 1.6rem;
+            background-color: white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius: 100px;
+            transform: rotate(-180deg);
+            transition-duration: 0.3s;
+            transition-delay: 0.2s;
+            .menu_item__icon{
+                color:#99E2D0;
+                font-size: small;
+            }
+        }
+    }
+}
