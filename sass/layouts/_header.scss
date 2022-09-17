@@ -8,6 +8,11 @@ header{
         height: auto;
         margin: 1.1rem auto;
         align-items: center;
+        @media screen  and (min-width:992px){
+            width: 12.5rem;
+            
+        }
+        
     }      
             
 }

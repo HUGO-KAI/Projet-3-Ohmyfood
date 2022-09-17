@@ -12,7 +12,15 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    width: 94%;
+    @media screen  and (max-width:767px) {
+        width: 94%;
+    }
+    @media screen  and (min-width: 768px) and (max-width: 991px) {
+        width: 50%;
+    }
+    @media screen  and (min-width:992px) {
+        width: 80%;
+    }
     margin: auto;
     margin-top: 15px;
     border-radius: 1rem;
@@ -69,8 +77,11 @@
     .menu_item__confirmation{
         width: 76px;
         background-color:#99E2D0;
+        @media screen  and (min-width:992px) {
+            background-color:#FF79DA;
+        }
         transform: scaleX(0);
-        transform-origin: right;
+        transform-origin:0px;
         margin-right: -80px;
         border-radius: 0px 1rem 1rem 0px;
         display:flex;
@@ -91,6 +102,9 @@
             transition-delay: 0.2s;
             .menu_item__icon{
                 color:#99E2D0;
+                @media screen  and (min-width:992px) {
+                    color:#FF79DA;
+                }
                 font-size: small;
             }
         }

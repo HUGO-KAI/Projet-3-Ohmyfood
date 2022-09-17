@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   * {
     box-sizing: border-box;
   }
@@ -83,12 +83,12 @@
     align-items: center;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) and (min-width: 992px) {
   body header > img {
     width: 12.5rem;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   body main .location {
     width: 100%;
     background-color: rgb(234, 234, 234);
@@ -163,6 +163,14 @@
   }
   body main .fonctionnement {
     padding-bottom: 3.1rem;
+    /*version tablette*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    /*version tablette*/
   }
   body main .fonctionnement .filtre {
     display: flex;
@@ -173,6 +181,10 @@
     align-items: center;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 16px rgb(220, 220, 220);
+    /*version tablette*/
+    width: 43%;
+    margin: 1rem 5% 1rem 2%;
+    /*version tablette*/
   }
   body main .fonctionnement .filtre div {
     display: flex;
@@ -210,12 +222,23 @@
     padding-bottom: 50px;
   }
   body main article .container {
+    /*version tablette*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
     margin-top: 24px;
+    /*version tablette*/
   }
   body main article .card {
     display: block;
-    width: 90%;
-    margin: auto;
+    /*version tablette*/
+    /*width: 90%;*/
+    /*margin:auto;*/
+    width: 48%;
+    /*version tablette*/
     background-color: #fff;
     border-radius: 1.25rem;
     margin-bottom: 20px;
@@ -289,7 +312,7 @@
     opacity: 1;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   body footer {
     width: 100%;
     background-color: rgb(53, 53, 53);
@@ -334,4 +357,4 @@
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-tablette.css.map */

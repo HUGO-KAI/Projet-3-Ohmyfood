@@ -1,4 +1,4 @@
-@media screen  and (max-width:767px) {
+@media screen  and (min-width:992px) {
     *{
         box-sizing: border-box;
     }
@@ -8,6 +8,7 @@
         text-decoration: none;
         color:black;
     }
+    
     body{
         width: 100%;
         font-family: 'Roboto', sans-serif;  
@@ -23,10 +24,23 @@
             }
             
             article{
-                width: 100%;
-                background-color: $color3;
+                /*version desktop*/
+                /*width: 100%;*/
+                width: 50%;
+                margin: auto;
+                /*version desktop*/
+                
+                
+                /*version desktop*/
+                /*background-color: $color3;
                 border-radius: 44px 44px 0px 0px;
-                margin-top: -50px;
+                margin-top: -50px;*/
+                background-color: $color-tertiaire;
+                border-radius: 44px 44px 44px 44px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                /*version desktop*/
+                
                 position: relative;
                 z-index: 10;
                 padding-bottom: 40px;
@@ -36,7 +50,10 @@
                     flex-direction: row;
                     justify-content: space-between;
                     align-items:flex-end;
-                    width: 90%;
+                    /*version desktop*/
+                    /*width: 90%;*/
+                    width: 70%;
+                    /*version tablette*/
                     margin:auto;
                     padding: 0px 0px;
                     h2{
@@ -52,7 +69,10 @@
 
                 }
                 .submenu-header{
-                    width: 90%;
+                    /*version desktop*/
+                    /*width: 90%;*/
+                    width: 70%;
+                    /*version desktop*/
                     margin:auto;
                     font-weight: 100;
                     font-size: 0.9rem;
@@ -106,5 +126,7 @@
             
         }
         @import "./layouts/_footer.scss";
+        
+        
     }
 }

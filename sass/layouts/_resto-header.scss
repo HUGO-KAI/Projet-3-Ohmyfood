@@ -1,5 +1,10 @@
 header{
     width: 90%;
+    /*version desktop
+    @media screen  and (min-width:992px){
+        width: 40%;
+    }
+    version desktop*/
     margin: auto;
     border-top: solid 1px rgb(234, 234, 234);
     display: flex;
@@ -8,16 +13,27 @@ header{
     a{
         display: block;
         align-items: center;
-        
         font-size: 1.3rem;
         position: absolute;
         float: left;
+        @media screen  and (min-width: 768px) {
+            &::after{
+                content: "Accueil";
+                padding-left: 10px;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+        }
     }
     &>img{
         width: 10.5rem;
         height: auto;
         margin: 18px auto;
         align-items: center;
+        @media screen  and (min-width:992px){
+            width: 12.5rem;
+            
+        }
     }
     
 }

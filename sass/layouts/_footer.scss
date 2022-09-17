@@ -4,7 +4,15 @@ footer{
     color:white;
     padding-bottom: 30px;
     div{
-        padding-left: 24px;
+        width: 90%;
+        margin: auto;
+        /*version desktop
+        @media screen  and (min-width:992px){
+            width: 40%;
+            margin:auto;
+            padding-left: 0px;
+        }
+        version desktop*/
         &:first-child{
             font-family: 'Shrikhand', cursive;
             padding-top: 20px;
