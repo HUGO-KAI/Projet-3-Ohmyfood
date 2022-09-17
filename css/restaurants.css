@@ -177,7 +177,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 992px) {
   body main article .menu_item {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -294,7 +294,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 992px) {
   body main article .menu_item1 {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -411,7 +411,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 992px) {
   body main article .menu_item2 {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -528,7 +528,7 @@
 }
 @media screen and (max-width: 767px) and (min-width: 992px) {
   body main article .menu_item3 {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 767px) {

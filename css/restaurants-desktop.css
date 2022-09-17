@@ -102,7 +102,7 @@
     align-items: flex-end;
     /*version desktop*/
     /*width: 90%;*/
-    width: 70%;
+    width: 80%;
     /*version tablette*/
     margin: auto;
     padding: 0px 0px;
@@ -135,7 +135,7 @@
   body main article .submenu-header {
     /*version desktop*/
     /*width: 90%;*/
-    width: 70%;
+    width: 80%;
     /*version desktop*/
     margin: auto;
     font-weight: 100;
