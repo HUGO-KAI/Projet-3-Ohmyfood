@@ -16,16 +16,16 @@
     @media screen  and (max-width:767px) {
         width: 94%;
     }
-    @media screen  and (min-width: 768px) and (max-width: 991px) {
+    @media screen  and (min-width: 768px) and (max-width: 1280px) {
         width: 50%;
     }
-    @media screen  and (min-width:992px) {
+    @media screen  and (min-width:1281px) {
         width: 80%;
     }
     margin: auto;
     margin-top: 15px;
     border-radius: 1rem;
-    animation:slide-in 3.8s 1 ease-out;
+    animation:slide-in 3s ease-out 1;
     box-shadow: 0px 0px 8px rgb(220, 220, 220);
     position: relative;
     cursor: pointer;
@@ -50,7 +50,7 @@
             overflow-wrap: normal;
         }
         p{
-            font-size: 0.95rem;
+            font-size: 0.85rem;
         }
         h4,p{
             margin: 0px;
@@ -63,24 +63,18 @@
     }
     
     .menu_item__price{
-        
         display: flex;
         align-items: end;
         text-align:right;
         padding: 12px 20px 12px 10px;
-        
         white-space: nowrap;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 600;
-        
     }
     
     .menu_item__confirmation{
         width: 76px;
         background-color:#99E2D0;
-        @media screen  and (min-width:992px) {
-            background-color:#FF79DA;
-        }
         transform: translateX(60px);
         transform-origin:0px;
         margin-right: -76px;
@@ -105,10 +99,6 @@
             .menu_item__icon{
                 color:#99E2D0;
                 font-weight: bolder;
-                @media screen  and (min-width:992px) {
-                    color:#FF79DA;
-                }
-                
             }
         }
     }
