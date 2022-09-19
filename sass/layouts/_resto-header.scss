@@ -1,10 +1,5 @@
 header{
     width: 90%;
-    /*version desktop
-    @media screen  and (min-width:992px){
-        width: 40%;
-    }
-    version desktop*/
     margin: auto;
     border-top: solid 1px rgb(234, 234, 234);
     display: flex;
@@ -16,12 +11,18 @@ header{
         font-size: 1.3rem;
         position: absolute;
         float: left;
+        
         @media screen  and (min-width: 768px) {
             &::after{
                 content: "Accueil";
                 padding-left: 10px;
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 font-weight: 500;
+                
+                
+            }
+            &:hover{
+                color: $color-primaire;
             }
         }
     }

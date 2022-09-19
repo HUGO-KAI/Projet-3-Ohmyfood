@@ -7,6 +7,11 @@
     color: black;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  html {
+    font-size: 18px;
+  }
+}
 @media screen and (min-width: 1281px) {
   html {
     font-size: 22px;
@@ -21,11 +26,6 @@
   }
   body header {
     width: 90%;
-    /*version desktop
-    @media screen  and (min-width:992px){
-        width: 40%;
-    }
-    version desktop*/
     margin: auto;
     border-top: solid 1px rgb(234, 234, 234);
     display: flex;
@@ -44,8 +44,11 @@
   body header a::after {
     content: "Accueil";
     padding-left: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
+  }
+  body header a:hover {
+    color: #9356DC;
   }
 }
 @media screen {
@@ -86,7 +89,7 @@
 }
 @media screen and (min-width: 1281px) {
   body main article {
-    width: 50%;
+    width: 55%;
     margin: auto;
     border-radius: 44px 44px 44px 44px;
     margin-top: 20px;
@@ -110,7 +113,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .nom_resto {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -171,7 +174,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .submenu-header {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -249,7 +252,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-1 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -355,7 +358,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-2 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -461,7 +464,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-3 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -567,7 +570,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-4 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -673,7 +676,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-5 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -779,7 +782,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-6 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -885,7 +888,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-7 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -991,7 +994,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-8 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -1097,7 +1100,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-9 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
@@ -1203,7 +1206,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   body main article .menu_item-10 {
-    width: 50%;
+    width: 55%;
   }
 }
 @media screen and (min-width: 1281px) {
