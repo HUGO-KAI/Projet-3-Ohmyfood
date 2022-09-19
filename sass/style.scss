@@ -87,7 +87,10 @@
                     align-items: center;
                     border-radius: 1.25rem;
                     box-shadow: 0px 0px 16px $color1;
-                    
+                    cursor: pointer;
+                    &:hover>div i{
+                        color:$color-primaire;
+                    }
                     div{
                         display: flex;
                         justify-content: center;

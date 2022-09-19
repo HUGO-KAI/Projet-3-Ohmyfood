@@ -12,6 +12,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
+    overflow: hidden;
     @media screen  and (max-width:767px) {
         width: 94%;
     }
@@ -24,13 +25,13 @@
     margin: auto;
     margin-top: 15px;
     border-radius: 1rem;
-    animation:slide-in 1.5s 1 ease-out;
+    animation:slide-in 3.8s 1 ease-out;
     box-shadow: 0px 0px 8px rgb(220, 220, 220);
     position: relative;
     cursor: pointer;
     &:hover{
         & > .menu_item__confirmation{
-            transform: scaleX(1);
+            transform: translateY(0px);
             margin-right: 0px;
             &>.menu_item__wrapIcon {
                 transform: rotate(0);
@@ -80,15 +81,16 @@
         @media screen  and (min-width:992px) {
             background-color:#FF79DA;
         }
-        transform: scaleX(0);
+        transform: translateX(60px);
         transform-origin:0px;
-        margin-right: -80px;
+        margin-right: -76px;
         border-radius: 0px 1rem 1rem 0px;
         display:flex;
         align-items:center;
         justify-content:center;
-        transition-duration: 0.5s;
+        transition-duration: 0.6s;
         white-space: nowrap;
+        
         .menu_item__wrapIcon {
             height: 1.6rem;
             width: 1.6rem;
@@ -99,13 +101,14 @@
             border-radius: 100px;
             transform: rotate(-180deg);
             transition-duration: 0.3s;
-            transition-delay: 0.2s;
+            transition-delay: 0.3s;
             .menu_item__icon{
                 color:#99E2D0;
+                font-weight: bolder;
                 @media screen  and (min-width:992px) {
                     color:#FF79DA;
                 }
-                font-size: small;
+                
             }
         }
     }
