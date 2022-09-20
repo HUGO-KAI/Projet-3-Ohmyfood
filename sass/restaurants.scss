@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media screen {
     *{
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
     }
     @import "./utils/mixins";
     @import "./utils/variables";
@@ -31,7 +39,8 @@
                 img{
                     width: 100%;
                     height: 260px;
-                    object-fit: cover;
+                    -o-object-fit: cover;
+                       object-fit: cover;
                 }
             }
             
@@ -53,10 +62,19 @@
                 z-index: 10;
                 padding-bottom: 40px;
                 .nom_resto{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items:flex-end;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
+                    -webkit-box-align:end;
+                        -ms-flex-align:end;
+                            align-items:flex-end;
                     @media screen and (max-width:767px) {
                         width: 90%;
                     }
@@ -112,45 +130,55 @@
                 
                 .menu_item-1{
                     @include menuItem;
-                    animation-delay: -1.8s;
+                    -webkit-animation-delay: -1.8s;
+                            animation-delay: -1.8s;
                    
                 }
                 .menu_item-2{
                     @include menuItem;
-                    animation-delay: -1.6s;
+                    -webkit-animation-delay: -1.6s;
+                            animation-delay: -1.6s;
                    
                 }
                 .menu_item-3{
                     @include menuItem;
-                    animation-delay: -1.4s;
+                    -webkit-animation-delay: -1.4s;
+                            animation-delay: -1.4s;
                 }
                 .menu_item-4{
                     @include menuItem;
-                    animation-delay: -1.2s;
+                    -webkit-animation-delay: -1.2s;
+                            animation-delay: -1.2s;
                 }
                 .menu_item-5{
                     @include menuItem;
-                    animation-delay: -1s;
+                    -webkit-animation-delay: -1s;
+                            animation-delay: -1s;
                 }
                 .menu_item-6{
                     @include menuItem;
-                    animation-delay: -0.8s;
+                    -webkit-animation-delay: -0.8s;
+                            animation-delay: -0.8s;
                 }
                 .menu_item-7{
                     @include menuItem;
-                    animation-delay: -0.6s;
+                    -webkit-animation-delay: -0.6s;
+                            animation-delay: -0.6s;
                 }
                 .menu_item-8{
                     @include menuItem;
-                    animation-delay: -0.4s;
+                    -webkit-animation-delay: -0.4s;
+                            animation-delay: -0.4s;
                 }
                 .menu_item-9{
                     @include menuItem;
-                    animation-delay: -0.2s;
+                    -webkit-animation-delay: -0.2s;
+                            animation-delay: -0.2s;
                 }
                 .menu_item-10{
                     @include menuItem;
-                    animation-delay: 0s;
+                    -webkit-animation-delay: 0s;
+                            animation-delay: 0s;
                 }
             }
             

@@ -6,13 +6,6 @@ footer{
     div{
         width: 90%;
         margin: auto;
-        /*version desktop
-        @media screen  and (min-width:992px){
-            width: 40%;
-            margin:auto;
-            padding-left: 0px;
-        }
-        version desktop*/
         &:first-child{
             font-family: 'Shrikhand', cursive;
             padding-top: 20px;
@@ -34,8 +27,12 @@ footer{
                 width: 28px;
                 padding-right: 10px;
                 .handshake{
-                    transform: scale(0.8);
-                    transform-origin: left;
+                    -webkit-transform: scale(0.8);
+                        -ms-transform: scale(0.8);
+                            transform: scale(0.8);
+                    -webkit-transform-origin: left;
+                        -ms-transform-origin: left;
+                            transform-origin: left;
                 }
             }
         }

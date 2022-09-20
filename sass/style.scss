@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media screen {
     *{
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
     }
     @import "./utils/variables";
     @import "./utils/mixins";
@@ -36,13 +44,25 @@
                 width: 100%;
                 background-color:rgb(234, 234, 234);
                 height: 50px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                box-shadow:inset 0px 15px 10px -15px $color4;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-shadow:inset 0px 15px 10px -15px $color4;
+                        box-shadow:inset 0px 15px 10px -15px $color4;
                 i{
-                    align-items: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                     padding-left: 3rem;
                     font-size: 1.1rem;
                 }
@@ -86,6 +106,8 @@
                     width: 90%;
                 }
                 @media screen and (min-width:1281px) {
+                    width: -webkit-fit-content;
+                    width: -moz-fit-content;
                     width: fit-content;
                 }
                 margin: auto;
@@ -95,25 +117,41 @@
             .fonctionnement{
                 padding-bottom: 3.1rem;
                 @media screen and (min-width:768px) {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     width: 90%;
                     margin: auto;
                 }
                 
                 .filtre{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-direction: row;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
                     background-color: $color3;
                     @media screen and (max-width:767px) {
                         margin: 1.7rem 5% 1.7rem 9%;
                     }
                     height: 70px;
-                    align-items: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
                     border-radius: 1.25rem;
-                    box-shadow: 0px 0px 16px $color1;
+                    -webkit-box-shadow: 0px 0px 16px $color1;
+                            box-shadow: 0px 0px 16px $color1;
                     cursor: pointer;
                     @media screen and (min-width:768px) and (max-width:1280px) {
                         width: 43%;
@@ -127,9 +165,15 @@
                         color:$color-primaire;
                     }
                     div{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        justify-content: center;
-                        align-items: center;
+                        -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                                justify-content: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         @include text1;
                     }
                     
@@ -143,9 +187,13 @@
                         color: white;
                         font-size: 14px;
                         font-weight: 300;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
                         text-align:center;
-                        align-items: center;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
                         span{
                             display: block;
                             padding-top: 3px;
@@ -165,10 +213,18 @@
             .container{
                 margin-top: 24px;
                 @media screen and (min-width:768px) {
+                    display:-webkit-box;
+                    display:-ms-flexbox;
                     display:flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    -webkit-box-pack: justify;
+                        -ms-flex-pack: justify;
+                            justify-content: space-between;
                     width: 90%;
                     margin: auto;
                 }
@@ -194,7 +250,8 @@
                     background-color: #fff;
                     border-radius: 1.25rem;
                     margin-bottom: 20px;
-                    box-shadow: 0px 0px 16px $color1;
+                    -webkit-box-shadow: 0px 0px 16px $color1;
+                            box-shadow: 0px 0px 16px $color1;
                     .card_photo{
                         width: 100%;
                         height: 170px;
@@ -202,22 +259,27 @@
                         img{
                             width: 100%;
                             height: 170px;
-                            object-fit: cover;
+                            -o-object-fit: cover;
+                               object-fit: cover;
                             @media screen and (min-width:1025px) {
-                                object-position:center;
+                                -o-object-position:center;
+                                   object-position:center;
                             }
                             @media screen and (max-width:1024px){
-                                object-position: bottom;
+                                -o-object-position: bottom;
+                                   object-position: bottom;
                             }
                             border-radius: 1.25rem 1.25rem 0px 0px;
                         }
                         
                         .img_center{
                             @media screen and (max-width:991px) {
-                                object-position:0px -9.4rem;
+                                -o-object-position:0px -9.4rem;
+                                   object-position:0px -9.4rem;
                             }
                             @media screen and (min-width:992px) {
-                                object-position:center;
+                                -o-object-position:center;
+                                   object-position:center;
                             }
                         }
                         
@@ -235,9 +297,16 @@
                         }      
                     }
                     .card_info{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
                         display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: row;
+                                flex-direction: row;
+                        -webkit-box-pack: justify;
+                            -ms-flex-pack: justify;
+                                justify-content: space-between;
                         width: 90%;
                         margin: auto;
                         padding-bottom: 1rem;
@@ -253,8 +322,12 @@
                             font-weight:lighter;
                         }
                         .heart-box{
+                            display: -webkit-box;
+                            display: -ms-flexbox;
                             display: flex;
-                            align-items: center;
+                            -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                    align-items: center;
                             
                         }
                         .heart{

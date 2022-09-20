@@ -7,6 +7,8 @@
   margin-top: 40px;
   font-size: 1.1rem;
   font-weight: 550;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: -o-linear-gradient(bottom, #9356DC, #FF79DA);
   background: linear-gradient(360deg, #9356DC, #FF79DA);
   color: #f6f6f6;
   cursor: pointer;
@@ -16,6 +18,8 @@
 }
 
 .btn:hover {
+  -webkit-filter: brightness(110%);
   filter: brightness(110%);
+  -webkit-box-shadow: 0px 0px 8px #1b1b1b;
   box-shadow: 0px 0px 8px #1b1b1b;
 }

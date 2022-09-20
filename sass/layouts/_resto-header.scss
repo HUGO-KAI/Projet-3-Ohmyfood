@@ -3,10 +3,14 @@ header{
     margin: auto;
     border-top: solid 1px rgb(234, 234, 234);
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position: relative;
     a{
         display: block;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         font-size: 1.3rem;
         position: absolute;
@@ -30,6 +34,8 @@ header{
         width: 10.5rem;
         height: auto;
         margin: 18px auto;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         @media screen  and (min-width:992px){
             width: 12.5rem;
