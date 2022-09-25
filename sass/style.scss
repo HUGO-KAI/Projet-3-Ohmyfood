@@ -164,6 +164,9 @@
                     &:hover>div i{
                         color:$color-primaire;
                     }
+                    &:hover{
+                        background-color: #f5edff;
+                    }
                     div{
                         display: -webkit-box;
                         display: -ms-flexbox;

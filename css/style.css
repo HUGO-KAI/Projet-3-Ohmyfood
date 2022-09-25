@@ -304,6 +304,11 @@
   }
 }
 @media screen {
+  body main .fonctionnement .filtre:hover {
+    background-color: #f5edff;
+  }
+}
+@media screen {
   body main .fonctionnement .filtre div {
     display: -webkit-box;
     display: -ms-flexbox;
