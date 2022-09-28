@@ -310,9 +310,9 @@
 }
 @media screen {
   body main article .menu_item-1:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-1:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -363,15 +363,13 @@
 }
 @media screen {
   body main article .menu_item-1 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -380,9 +378,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-1 .menu_item__confirmation .menu_item__wrapIcon {
@@ -456,9 +451,9 @@
 }
 @media screen {
   body main article .menu_item-2:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-2:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -509,15 +504,13 @@
 }
 @media screen {
   body main article .menu_item-2 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -526,9 +519,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-2 .menu_item__confirmation .menu_item__wrapIcon {
@@ -602,9 +592,9 @@
 }
 @media screen {
   body main article .menu_item-3:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-3:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -655,15 +645,13 @@
 }
 @media screen {
   body main article .menu_item-3 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -672,9 +660,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-3 .menu_item__confirmation .menu_item__wrapIcon {
@@ -748,9 +733,9 @@
 }
 @media screen {
   body main article .menu_item-4:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-4:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -801,15 +786,13 @@
 }
 @media screen {
   body main article .menu_item-4 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -818,9 +801,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-4 .menu_item__confirmation .menu_item__wrapIcon {
@@ -894,9 +874,9 @@
 }
 @media screen {
   body main article .menu_item-5:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-5:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -947,15 +927,13 @@
 }
 @media screen {
   body main article .menu_item-5 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -964,9 +942,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-5 .menu_item__confirmation .menu_item__wrapIcon {
@@ -1040,9 +1015,9 @@
 }
 @media screen {
   body main article .menu_item-6:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-6:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -1093,15 +1068,13 @@
 }
 @media screen {
   body main article .menu_item-6 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -1110,9 +1083,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-6 .menu_item__confirmation .menu_item__wrapIcon {
@@ -1186,9 +1156,9 @@
 }
 @media screen {
   body main article .menu_item-7:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-7:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -1239,15 +1209,13 @@
 }
 @media screen {
   body main article .menu_item-7 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -1256,9 +1224,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-7 .menu_item__confirmation .menu_item__wrapIcon {
@@ -1332,9 +1297,9 @@
 }
 @media screen {
   body main article .menu_item-8:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-8:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -1385,15 +1350,13 @@
 }
 @media screen {
   body main article .menu_item-8 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -1402,9 +1365,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-8 .menu_item__confirmation .menu_item__wrapIcon {
@@ -1478,9 +1438,9 @@
 }
 @media screen {
   body main article .menu_item-9:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-9:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -1531,15 +1491,13 @@
 }
 @media screen {
   body main article .menu_item-9 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -1548,9 +1506,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-9 .menu_item__confirmation .menu_item__wrapIcon {
@@ -1624,9 +1579,9 @@
 }
 @media screen {
   body main article .menu_item-10:hover > .menu_item__confirmation {
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateX(2px);
+    -ms-transform: translateX(2px);
+    transform: translateX(2px);
     margin-right: 0px;
   }
   body main article .menu_item-10:hover > .menu_item__confirmation > .menu_item__wrapIcon {
@@ -1677,15 +1632,13 @@
 }
 @media screen {
   body main article .menu_item-10 .menu_item__confirmation {
-    width: 76px;
+    width: 78px;
+    margin-right: 0px;
     background-color: #99E2D0;
-    -webkit-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    transform: translateX(60px);
-    -webkit-transform-origin: 0px;
-    -ms-transform-origin: 0px;
-    transform-origin: 0px;
-    margin-right: -76px;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    margin-right: -82px;
     border-radius: 0px 1rem 1rem 0px;
     display: flex;
     -webkit-box-align: center;
@@ -1694,9 +1647,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
     white-space: nowrap;
   }
   body main article .menu_item-10 .menu_item__confirmation .menu_item__wrapIcon {
