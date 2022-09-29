@@ -143,7 +143,7 @@
   body main .location {
     width: 100%;
     background-color: rgb(234, 234, 234);
-    height: 50px;
+    height: 52px;
     -webkit-box-shadow: inset 0px 15px 10px -15px rgb(180, 180, 180);
     box-shadow: inset 0px 15px 10px -15px rgb(180, 180, 180);
     display: -webkit-box;
@@ -158,6 +158,7 @@
   }
   body main .location .container1 {
     width: 10.5rem;
+    padding-top: 10px;
     margin: auto auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -169,25 +170,15 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
   }
   body main .location .container1 i {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 1.1rem;
-  }
-  body main .location .container1 form {
-    width: 90%;
-  }
-  body main .location .container1 form input {
     font-size: 1rem;
+    margin-right: 1rem;
+  }
+  body main .location .container1 .local-text {
+    width: 90%;
+    font-size: 1.1rem;
     font-weight: 600;
-    background-color: rgb(234, 234, 234);
-    border: transparent;
-    margin-left: 0.9rem;
   }
   body main nav {
     width: 100%;
