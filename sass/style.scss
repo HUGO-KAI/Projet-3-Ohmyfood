@@ -44,38 +44,53 @@
                 width: 100%;
                 background-color:rgb(234, 234, 234);
                 height: 50px;
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-orient: horizontal;
-                -webkit-box-direction: normal;
-                    -ms-flex-direction: row;
-                        flex-direction: row;
-                -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                        justify-content: center;
-                -webkit-box-align: center;
-                    -ms-flex-align: center;
-                        align-items: center;
                 -webkit-box-shadow:inset 0px 15px 10px -15px $color4;
-                        box-shadow:inset 0px 15px 10px -15px $color4;
-                i{
+                    box-shadow:inset 0px 15px 10px -15px $color4;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                     -webkit-box-align: center;
                         -ms-flex-align: center;
                             align-items: center;
-                    margin-left: 3rem;
-                    font-size: 1.1rem;
-                }
-                form{
-
-                    input{
-                        @include text1;
-                        background-color: $color2; 
-                        border: transparent;
-                        margin-left: 0.9rem;
+                .container1{
+                    width: 10.5rem;
+                    margin: auto auto;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: row;
+                            flex-direction: row;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
+                    
+                    i{
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
+                        
+                        font-size: 1.1rem;
                     }
-
-                } 
+                    form{
+                        width: 90%;
+                        input{
+                            @include text1;
+                            background-color: $color2; 
+                            border: transparent;
+                            margin-left: 0.9rem;
+                        }
+    
+                    }
+                }
+                 
             }
            
             nav{
