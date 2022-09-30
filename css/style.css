@@ -171,14 +171,22 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
-  body main .location .container1 i {
+  body main .location .container1 lable > i {
+    display: block;
     font-size: 1rem;
     margin-right: 1rem;
   }
-  body main .location .container1 .local-text {
+  body main .location .container1 #local-text {
+    display: block;
     width: 90%;
     font-size: 1.1rem;
     font-weight: 600;
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+  }
+  body main .location .container1 #local-text:focus {
+    outline: 2px solid #9356DC;
   }
   body main nav {
     width: 100%;
