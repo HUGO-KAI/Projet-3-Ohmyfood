@@ -1,3 +1,3 @@
 # ohmyfood 
-Openclassroom formation Dev web Projet 3 ohmyfood
-https://hugo-kai.github.io/Projet-3-Ohmyfood/
+Un site 100% mobile qui répertorie les menus de restaurants gastronomiques </br>
+Visitez:https://hugo-kai.github.io/Projet-3-Ohmyfood/
